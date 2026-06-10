@@ -107,7 +107,7 @@ plt.rcParams.update({'font.family':'DejaVu Sans','text.color':TEXT})
 subj_short = ['Maths','Science','English','History','Comp Sci']
 
 # ─────────────────────────────────────────────────────────────────
-# FIGURE 1 — Overview Dashboard
+# FIGURE 1: Overview Dashboard
 # ─────────────────────────────────────────────────────────────────
 fig1 = plt.figure(figsize=(20,14), facecolor=BG)
 fig1.suptitle('Student Marks Analysis — Academic Performance Dashboard',
@@ -206,7 +206,7 @@ fig1.savefig('fig1_overview.png', dpi=150, bbox_inches='tight', facecolor=BG)
 plt.close()
 
 # ─────────────────────────────────────────────────────────────────
-# FIGURE 2 — Deep Statistical Analysis
+# FIGURE 2: Deep Statistical Analysis
 # ─────────────────────────────────────────────────────────────────
 fig2 = plt.figure(figsize=(20,14), facecolor=BG)
 fig2.suptitle('Student Marks Analysis — Deep Statistical Insights',
@@ -319,7 +319,7 @@ fig2.savefig('fig2_deep.png', dpi=150, bbox_inches='tight', facecolor=BG)
 plt.close()
 
 # ─────────────────────────────────────────────────────────────────
-# FIGURE 3 — Key Indicators
+# FIGURE 3: Key Indicators
 # ─────────────────────────────────────────────────────────────────
 fig3 = plt.figure(figsize=(20,10), facecolor=BG)
 fig3.suptitle('Student Marks Analysis — Key Academic Indicators & Insights',
